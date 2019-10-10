@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>video gallery</title>
+
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="iframes">
+		<div><iframe width="900" height="500" src="https://www.youtube.com/embed/Gf4GmEq40rE"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+				name="youtube_iframe"></iframe></div>
+		<span>
+			<a href="https://www.youtube.com/embed/LrVwQ6wjuEc" target="youtube_iframe"><img
+					src="https://img.youtube.com/vi/LrVwQ6wjuEc/maxresdefault.jpg" alt="goneflud - seti"></a>
+			<a href="https://www.youtube.com/embed/kczMAgbryEY" target="youtube_iframe"><img
+					src="https://img.youtube.com/vi/kczMAgbryEY/maxresdefault.jpg" alt="convolk - whatever it takes"></a>
+			<a href="https://www.youtube.com/embed/zWogY-237F0" target="youtube_iframe"><img
+					src="https://img.youtube.com/vi/zWogY-237F0/maxresdefault.jpg" alt="goneflud - pustota"></a>
+			<a href="https://www.youtube.com/embed/pKOADZEWySU" target="youtube_iframe"><img
+					src="https://img.youtube.com/vi/pKOADZEWySU/maxresdefault.jpg" alt="cush lovers - 30k"></a>
+			<a href="https://www.youtube.com/embed/Gf4GmEq40rE" target="youtube_iframe"><img
+					src="https://img.youtube.com/vi/Gf4GmEq40rE/maxresdefault.jpg" alt="bbt - esquire"></a>
+		</span>
+	</div>
+	<div class="commentary">
+		<h2>Комментарии</h2>
+		<div class="first_commentary"><b>username</b><br>
+			хорошее видео</div><br>
+		<div class="first_commentary">
+			<b>vasya</b><br>
+			добротно
+		</div><br>
+		<h2>Оставить комментарий</h2>
+		<form>
+			<input type="text" placeholder="Имя пользователя" size="24" maxlength="20" name="name" required
+				class="nickname"><br><br>
+			<textarea name="comment" required rows="5" maxlength="300"
+				class="text_commentary">Текст комментария...</textarea><br><br>
+			<input type="submit" value="Отправить" class="button">
+		</form>
+
+	</div>
+</body>
+
+</html>
