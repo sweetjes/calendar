@@ -30,7 +30,7 @@ table {
   font-weight: bold;
 }
 
-.numbers {
+.number {
   vertical-align: top;
   padding-left: 125px;
   padding-top: 10px;
@@ -42,7 +42,7 @@ table {
   position: relative;
 }
 
-.next_month {
+.other_month {
   color: #BEB6B6;
 }
 
@@ -100,6 +100,6 @@ p {
   color: white;
 }
 
-.calendar.calendar_dark .next_month {
+.calendar.calendar_dark .other_month {
   color: gray;
 }
